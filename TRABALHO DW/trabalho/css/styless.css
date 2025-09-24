@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "PT Sans Narrow", sans-serif;
 }
+
 
 .container{
     width: 100%;
@@ -15,14 +17,14 @@
 .box1{
     display: flex;
     width: 100%;
-    height: 80px;
+    height: 100%;
     background-color: #FFFF;
 }
 
 .box2{
     display: flex;
     width: 100%;
-    height: 500px;
+    height: 60vh;
     background-color: rgb(248, 85, 167);
     justify-content: center;
     align-items: center;
@@ -31,7 +33,7 @@
 .box3{
     display: flex;
     width: 100%;
-    height: 568px;
+    height: 56vh;
     background-color: #FFFF;
     align-items: center;
     justify-content: center;
@@ -41,14 +43,14 @@
 .box4{
     display: flex;
     width: 100%;
-    height: 490px;
+    height: 49vh;
     background-color: #FFFF;
 }
 
 .box5{
     display: flex;
     width: 100%;
-    height: 265px;
+    height: 26vh;
     background-color: #FFFF;
 
 }
@@ -56,39 +58,45 @@
 .box6{
     display: flex;
     width: 100%;
-    height: 40px;
+    height: 4vh;
     background-color: #5C5C5C;
 }
 
 .box7{
     display: flex;
     width: 100%;
-    height: 110px;
+    height: 11vh;
     background-color: #2C2B2B;
     align-items: center;
     justify-content: center;
 }
 
 .logo{
-    width: 81px;
-    height: 73px;
+    width: 4vw ;
+    height: 8vh;
     margin-left: 10px;
-    margin-top: 5px;
 }
 
-#line1{
+#line{
     display: flex;
     width: none;
-    height: 80px;
+    height: 8vh;
     border: 1px solid #3C3C3C;
     margin-left: 15px;
+}
+
+#espace{
+display: flex;
+width: 100%;
+justify-content: space-between;
 }
 
 .button{
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 2vh;
     margin-left: 10px;
+    
 }
 
 a{
@@ -97,14 +105,7 @@ a{
     margin-top: 30px;
 }
 
-.line2{
-    display: flex;
-    width: none;
-    height: 80px;
-    border: 1px solid #3C3C3C;
-    margin-left: 800px;
 
-}
 
 .icon{
     display: flex;
@@ -125,8 +126,8 @@ a{
 }
 
 .iconc{ 
-    width: 30px;
-    height: 30px;
+    width: 2vw;
+    height: 3vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -140,57 +141,66 @@ a{
 }
 
 .oferta{
-    width: 900px;
-    height: 400px;
+    width: 90vw;
+    height: 40vh;
     border: 1px solid black ;
 }
 
 .oferta img{
-    width: 900px;
-    height: 400px;
+    width: 90vw;
+    height: 40vh;
 }
 
 .quadros{
     width: 100%;
-    height: 490px;
+    height: 49vh;
     align-items: center;
     justify-content: center;
     gap: 40px;
 }
 
 .quadros img{
-    border: 1px solid black ;
+    box-shadow: 10px 5px 5px #2C2B2B;
     border-radius: 5%;
-    width: 200px;
-    height: 200px;
-    margin-left: 55px;
-    gap: 20px;
+    width: 13vw;
+    height: 22vh;
+    margin-left: 5%;
+    gap: 1vw;
     object-fit:cover;
     position: relative;
+    margin-top: 9vh;
 }
 
-.quadros p{
-    margin-top: 140px;
-    margin-left: 40px;
-    font-size: 21px;
+.cat{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    margin-top: 4vh;
+    margin-left: 3vw;
+}
+
+.cat p{
+    font-size: 4vh;
+    font-style: initial;
+    color: #5C5C5C;
 }
 
 .classes{
     width: 100%;
-    height: 265px;
+    height: 26.5vh;
     align-items: center;
     justify-content: center;
 }
 
 .classes img{
     border: 1px solid black;
-    width: 150px;
-    height: 150px;
+    width: 10.5%;
+    height: 17vh;
     border-radius: 100%;
     overflow: hidden;
-
     margin-left: 50px;
     object-fit: contain;
+    margin-left: 5%;
 }
 
 .classes p{
@@ -200,6 +210,19 @@ a{
 }
 
 .icon2 img{
-    width: 81px;
-    height: 73px;
+    width: 5vw;
+    height: 6vw;
+}
+
+.loj{
+    height: 3vh;
+    align-items: center;
+    margin-left: 1.5vw;
+    margin-top: -2vh;
+
+}
+
+.loj p{
+    font-size: 3vh;
+    color: #3C3C3C;
 }
