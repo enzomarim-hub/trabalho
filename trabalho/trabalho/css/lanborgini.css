@@ -10,13 +10,15 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    
 }
 
 .box1{
     display: flex;
     width: 100%;
     height: 8vh;
-    background-color: #FFFF;
+    background-color: #ffffff;
+    
 }
 
 
@@ -104,7 +106,7 @@ a{
 .sep{
     width: 100%;
     height: none;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 
@@ -113,5 +115,73 @@ a{
     height: 7.3vh;
 }
 /*essa parte é a mesmo da ota*/
+.backgrond{
+    background-color: #746e6e;
+        width: 100%;
+        height: 140vw;
+        display: flex;
+          justify-content: center;
+       
+
+
+
+}
+.quadros{
+
+    background-color: #6b6464;
+       width:95%;
+       height: 20vw;
+       border-radius: 40px;
+       display: flex;
+       justify-content:left;
+       justify-content: space-around;
+     align-items: center;
+       flex-direction: center;
+}
  
+.carro1{
+       background-color: #eb0a0a;
+        width:25vh;
+        height: 15vw;
+        border-radius: 40px;
+   
+
+   }
+.carro2{
+     background-color: #fdfdfd;
+        width:25vh;
+        height: 15vw;
+        border-radius: 40px;
+       
+
+
+}
+.carro3{
+  background-color: #ff00d4;
+        width:25vh;
+        height: 15vw;
+        border-radius: 40px;
+}
+.carro4{
+    background-color: #00ccff;
+        width:25vh;
+        height: 15vw;
+        border-radius: 40px;
+
+}
+.carro5{
+     background-color: #5700f8;
+        width:25vh;
+        height: 15vw;
+        border-radius: 40px;
+
+
+}
+.carro6{
+    background-color: #258b0c;
+        width:25vh;
+        height: 15vw;
+        border-radius: 40px;
+}
+
 
