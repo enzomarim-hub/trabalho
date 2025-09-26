@@ -313,5 +313,7 @@ a{
 }
 
 #lambo{
-  cursor: pointer; 
+  cursor: pointer;
+  width: 110%; 
 }
+
