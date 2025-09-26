@@ -18,7 +18,7 @@
     display: flex;
     width: 100%;
     height: 100%;
-    background-color: #FFFF;
+    background-color: #515151;
 }
 
 .box2{
@@ -34,7 +34,7 @@
     display: flex;
     width: 100%;
     height: 56vh;
-    background-color: #FFFF;
+    background-color: #515151;
     align-items: center;
     justify-content: center;
 
@@ -44,14 +44,16 @@
     display: flex;
     width: 100%;
     height: 49vh;
-    background-color: #FFFF;
+    background-color: #515151;
+    flex-direction: column;
 }
 
 .box5{
     display: flex;
     width: 100%;
     height: 26vh;
-    background-color: #FFFF;
+    background-color: #515151;
+    flex-direction: column;
 
 }
 
@@ -74,7 +76,7 @@
 .logo{
     width: 4vw ;
     height: 8vh;
-    margin-left: 10px;
+    margin-left: 1vw;
 }
 
 #line{
@@ -152,23 +154,32 @@ a{
 }
 
 .quadros{
+    display: flex;
     width: 100%;
-    height: 49vh;
+    height: 22vh;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
+    margin-top: 5vh;
 }
 
 .quadros img{
+    display: flex;
     box-shadow: 10px 5px 5px #2C2B2B;
     border-radius: 5%;
     width: 13vw;
     height: 22vh;
-    margin-left: 5%;
+
     gap: 1vw;
     object-fit:cover;
     position: relative;
-    margin-top: 9vh;
+     transition: 0.4s;
+}
+
+.quadros img:hover{
+    width: 15vw;
+    height: 25vh;
+   
 }
 
 .cat{
@@ -176,20 +187,23 @@ a{
     display: flex;
     align-items: center;
     margin-top: 4vh;
-    margin-left: 3vw;
+    margin-left: 11vw;
 }
 
 .cat p{
     font-size: 4vh;
     font-style: initial;
-    color: #5C5C5C;
+    color: #FFFF;
 }
 
 .classes{
+    display: flex;
     width: 100%;
     height: 26.5vh;
     align-items: center;
     justify-content: center;
+    margin-top: 4vh;
+    gap: 50px;
 }
 
 .classes img{
@@ -198,16 +212,10 @@ a{
     height: 17vh;
     border-radius: 100%;
     overflow: hidden;
-    margin-left: 50px;
     object-fit: contain;
-    margin-left: 5%;
+   
 }
 
-.classes p{
-    margin-top: 50px;
-    margin-left: 30px;
-    font-size: 20px;
-}
 
 .icon2 img{
     width: 5vw;
@@ -224,5 +232,30 @@ a{
 
 .loj p{
     font-size: 3vh;
-    color: #3C3C3C;
+    color: #FFFF;
+    margin-left: 9.8vw;
+}
+
+.navbar{
+    display: flex;
+    width: 50vw;
+    height: 5vh;
+    background-color: #FFFF;
+    margin-top: -55vh;
+    justify-content: right;
+    align-items: center;
+    border-radius: 4cm;
+}
+
+
+#pesquisar{
+    margin-right: 0.5vw;
+    width: 45vw;
+    height: 4vh;
+}
+
+.navbar img{
+    margin-right: 1vw;
+    width: 2vw;
+    height: 3vh;
 }
